@@ -1,0 +1,58 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff8e1;
+    color: #4e342e;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6d1b7b;
+    color: white;
+    padding: 10px 20px;
+}
+.logo {
+    height: 60px;
+}
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+.guruji-photo {
+    width: 200px;
+    border-radius: 10px;
+}
+footer {
+    background: #4e342e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+form button {
+    background: #6d1b7b;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
